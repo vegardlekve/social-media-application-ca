@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Feed</title>
+    <link rel="stylesheet" href="/dist/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary fw-bold" href="index.html">SoBunga</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-lg-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Feed</a>
+                    </li>
+                    <li class="">
+    
+                    </li>
+                </ul>
+                <div class="container-fluid d-flex justify-content-lg-end">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="container-fluid d-flex justify-content-lg-end ">
+                        <button type="button" onclick="location.href='login.html';" class="btn btn-secondary">Sign
+                            out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container d-flex flex-column align-items-center text-center">
+            <form action="/profile.html" class="mt-5">
+                <h2 class="h5">Share something:</h2>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary btn-lg">Post</button>
+            </form>
+            <span class="m-3"></span>
+            <div class="card d-flex flex-column align-items-center text-center" style="width: 25rem;">
+                <img src="/public/images/friend4.png" class="card-img-top img-thumbnail m-2 img-height img-width" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Happy birthday, you son of a gun!</p>
+                    <a href="#" class="btn btn-primary">Reply</a>
+                </div>
+            </div>
+            <span class="m-3"></span>
+            <div class="card d-flex flex-column align-items-center text-center" style="width: 25rem;">
+                <img src="/public/images/friend5.png" class="card-img-top img-thumbnail m-2 img-height img-width" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Congratulations!</p>
+                    <a href="#" class="btn btn-primary">Reply</a>
+                </div>
+            </div>
+            <span class="m-3"></span>
+            <div class="card d-flex flex-column align-items-center text-center" style="width: 25rem;">
+                <img src="/public/images/friend3.png" class="card-img-top img-thumbnail m-2 img-height img-width" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Getting old! Although the alternative is worse.. HBD :D</p>
+                    <a href="#" class="btn btn-primary">Reply</a>
+                </div>
+            </div>
+            <span class="m-3"></span>
+            <div class="card d-flex flex-column align-items-center text-center" style="width: 25rem;">
+                <img src="/public/images/friend4.png" class="card-img-top img-thumbnail m-2 img-height img-width" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Happy birthday, you son of a gun!</p>
+                    <a href="#" class="btn btn-primary">Reply</a>
+                </div>
+            </div>
+            <span class="m-3"></span>
+            <div class="card d-flex flex-column align-items-center text-center" style="width: 25rem;">
+                <img src="/public/images/friend5.png" class="card-img-top img-thumbnail m-2 img-height img-width" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Congratulations!</p>
+                    <a href="#" class="btn btn-primary">Reply</a>
+                </div>
+            </div>
+            <span class="m-3"></span>
+            <div class="card d-flex flex-column align-items-center text-center" style="width: 25rem;">
+                <img src="/public/images/friend3.png" class="card-img-top img-thumbnail m-2 img-height img-width" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Getting old! Although the alternative is worse.. HBD :D</p>
+                    <a href="#" class="btn btn-primary">Reply</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container absolute-bottom">
+        <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+            <div class="d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2022 SoBunga, Inc</span>
+            </div>
+        </footer>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
